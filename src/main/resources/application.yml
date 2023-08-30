@@ -1,0 +1,14 @@
+server:
+  port: 6040
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+
+spring:
+  application:
+    name: openapi-manager
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: public
