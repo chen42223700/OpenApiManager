@@ -2,10 +2,9 @@ package com.link.openapimanager.controller;
 
 import com.link.openapimanager.entity.dto.CommonResponse;
 import com.link.openapimanager.entity.dto.ParamInputDto;
-import com.link.openapimanager.service.impl.OpenApiService;
+import com.link.openapimanager.service.OpenApiService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
 @RestController()
 @RequestMapping("/open-api")
